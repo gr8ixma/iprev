@@ -11,7 +11,7 @@ import random
 
 class reverse(object):
 	def run(self, target):
-	print ""
+	print("")
 	if target.startswith("http://"):
 		target = target.replace("http://", "")
 	elif target.startswith("https://"): 
